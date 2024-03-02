@@ -1,0 +1,14 @@
+.contents-box {
+    height: 9rem;
+    width: 25rem;
+    background-color: rgb(37, 37, 50);
+    margin: 2rem;
+    border-radius: 20px;
+}
+
+.lower-data {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+
+}

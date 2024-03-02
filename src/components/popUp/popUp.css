@@ -1,0 +1,29 @@
+.detail{
+    display: flex;
+    /* margin: 5rem;
+    background: #f0d5d5;
+    padding: 5rem;
+    border-radius: 20px; */
+}
+.des-box{
+   height: 30rem;
+   width: 50rem;
+   border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    word-wrap: normal;
+    padding: 2rem;
+    margin-left: 1rem;
+}
+.img-size{
+   height: 100%;
+   width: 100%;
+}
+.option{
+   display: flex;
+   gap: 2rem;
+
+}
+.i-size{
+   font-size: 50px;
+}

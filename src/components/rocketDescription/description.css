@@ -1,0 +1,9 @@
+.box{
+    height: 35rem;
+    width: 70rem;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-left:10rem;
+    padding: auto;
+}

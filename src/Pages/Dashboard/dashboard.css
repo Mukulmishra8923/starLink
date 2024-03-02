@@ -1,0 +1,56 @@
+nav {
+  text-align: center;
+
+}
+
+.left-view {
+  background-color: rgb(255, 255, 254);
+  height: 100vh;
+
+}
+
+.logo {
+  font-weight: 500;
+  letter-spacing: 7px;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  width: 60%;
+  left: 30px;
+}
+
+.right-view {
+  background-image: url('./../../assets/spaceX.webp');
+  /* background-size: 200vh; */
+  /* background-repeat: no-repeat; */
+  display: flex;
+  gap: 4rem;
+
+}
+
+.tab {
+
+  display: inline-block;
+
+   font-size: 25px;
+   cursor: pointer;
+   box-sizing: border-box;
+   padding: 5px;
+}
+
+.tab:hover {
+  background: rgb(245, 245, 245);
+}
+
+.margin {
+  margin-top: 13rem;
+}
+.col-9-bg{
+    background: url(https://live.staticflickr.com/7706/26751237322_5a52540ea3_h.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+    overflow-x: auto;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}

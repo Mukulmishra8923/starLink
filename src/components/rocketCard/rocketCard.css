@@ -1,0 +1,102 @@
+.outer-boxes {
+    height: 35rem;
+    width: 150vh;
+    margin-left: 4rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.inner-box {
+    height: 30rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+    position: relative;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+.modal-title{
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    left: 22px;
+    top: 29px;
+    cursor: pointer;
+}
+.modal-header{
+    border-bottom: none;
+}
+.inner-box img{
+    object-fit: cover;
+}
+button[data-type="next"]{
+    right: 225px;
+}
+.slid-container{
+    position: relative;
+    left: 230px;
+    bottom: 18px;
+    width: 95%;
+    max-width: 100%;
+}
+
+.rocket-img-box{
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    position: relative;
+    height: 475px;
+
+}
+.rocket-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.rocket-box {
+    height: auto !important;
+}
+.fa-person{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    padding: 10px 5px;
+}
+.rocket-img:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.status {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    padding: 6px 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.status p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.status span{
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.active {
+    background-color: rgba(29, 143, 36, 0.4);
+}
+
+.development {
+    background-color: rgba(255, 179, 3, 0.4);
+}

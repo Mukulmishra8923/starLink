@@ -1,0 +1,41 @@
+.content-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+
+}
+
+.content {
+    display: flex;
+    gap: 3rem;
+}
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 2px;
+    align-items: center;
+
+
+}
+
+.child-icon {
+    color: rgb(254, 249, 249);
+    margin: 2px;
+    padding: 2px;
+    gap: 50px;
+    height: 2rem;
+    width: 2rem;
+    font-size: 18px;
+    background-color: rgb(100, 97, 97);
+    border-radius: 50%;
+
+}

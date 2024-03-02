@@ -1,0 +1,12 @@
+.set-img{
+    height: 70%;
+    width: 70%;
+    margin: 1rem;
+}
+
+.starlink-info{
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    padding: 0px 15px;
+}
