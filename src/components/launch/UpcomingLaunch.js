@@ -1,6 +1,7 @@
 import { fetchDataFromApi } from "../../utils/Api";
 import { useState, useEffect } from "react";
 import MiniCard from "../miniCard/MiniCard";
+import fh_logo from '../../assets/fh_logo.jpg'
 
 const UpcomingLaunch = ({upcomingUrl, rocketUrl, launchpadUrl  }) => {
   const headName = "Upcoming Launch"
@@ -104,7 +105,7 @@ const UpcomingLaunch = ({upcomingUrl, rocketUrl, launchpadUrl  }) => {
           <div className="heading">Rocket Logo</div>
           {/* ------------------mini card------------- */}
 
-          <MiniCard img={rocketLogo} />
+          <MiniCard img={fh_logo} />
           <div className="heading">LAUNCHPAD</div>
           <div className="rec">{launchpadName}</div>
         </div>

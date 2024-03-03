@@ -10,7 +10,7 @@ const PopUp = ({popupRocketData, modal, closePopup}) => {
  // const [modal, setModal] = useState(value);
   const [desc, setDesc] = useState("");
   const [image, SetImage] = useState("");
-  const [photo, setPhoto] = useState(1);
+  const [photo, setPhoto] = useState(0);
   const [showphoto, setShowphoto] = useState('');
   const navigate =useNavigate();
 
@@ -23,15 +23,15 @@ const PopUp = ({popupRocketData, modal, closePopup}) => {
   return (
     <div>
       <Modal size="xl" isOpen={modal} toggle={() => closePopup(!modal)}>
-        <ModalHeader  toggle={() => closePopup(!modal) }>
+        <ModalHeader  className="modal-close-btn" toggle={() => closePopup(!modal) }>
           
             <nav className="option">
             <span>{popupRocketData.name}</span>
             <span>Overview</span>
-            <span onClick={()=>{setPhoto(0)}}>Photo</span>
+            <span className="photo-hide" onClick={()=>{setPhoto(1)}}>Photo</span>
           </nav>
         </ModalHeader>
-        {photo ?( <ModalBody>
+        {photo ?( <Slider popupRocketData={popupRocketData}/>) :(<ModalBody>
           
           <div className="detail">
             <div className="inner-box">
@@ -43,7 +43,7 @@ const PopUp = ({popupRocketData, modal, closePopup}) => {
               {popupRocketData.description}
             </div>
           </div>
-        </ModalBody>) :(<Slider popupRocketData={popupRocketData}/>)}
+        </ModalBody>)}
        
       </Modal>
 

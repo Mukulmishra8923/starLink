@@ -1,9 +1,6 @@
 .detail{
     display: flex;
-    /* margin: 5rem;
-    background: #f0d5d5;
-    padding: 5rem;
-    border-radius: 20px; */
+  
 }
 .des-box{
    height: 30rem;
@@ -26,4 +23,29 @@
 }
 .i-size{
    font-size: 50px;
+}
+
+@media screen and (max-width: 480px){
+   .detail{
+     display: block;
+     margin: 2rem;
+     
+   }
+   .des-box{
+      width: 110%;
+      margin: 30px 5px 2px 0px;
+   }
+   .inner-box{
+     width: 100%;
+   }
+   .img-size{
+      width: 85%;
+      border-radius: 20px;
+      margin-left:1.5rem ;
+   }
+   .photo-hide{
+      display: none;
+   }
+
+  
 }

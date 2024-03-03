@@ -25,16 +25,16 @@ const PreviousLaunch = ({previousUrl, rocketUrl }) => {
   useEffect(() => {
     fetchDataFromApi(previousUrl).then((res) => {
     
-      setMissionName(res[0].name);
-      setRocketId(res[0].rocket);
-      setflightNumber(res[0].flight_number);
-      setLaunchpad(res[0].launchpad);
-      setRocketLogo(res[0].links.patch.small);
-      setWikipedia(res[0].links.wikipedia);
-      setYoutube(res[0].links.webcast);
-      setReddit(res[0].links.reddit.campaign);
-      setCrew(res[0].crew);
-      console.log(res[0].crew)
+      setMissionName(res[186].name);
+      setRocketId(res[186].rocket);
+      setflightNumber(res[186].flight_number);
+      setLaunchpad(res[186].launchpad);
+      setRocketLogo(res[186].links.patch.small);
+      setWikipedia(res[186].links.wikipedia);
+      setYoutube(res[186].links.webcast);
+      setReddit(res[186].links.reddit.campaign);
+      setCrew(res[186].crew);
+    
    
       // ------------small img link-------------------
       setImg(res[0].links.mission_patch_small);
@@ -108,7 +108,7 @@ const PreviousLaunch = ({previousUrl, rocketUrl }) => {
           {crew.map((value, index) => {
           return (
 
-              <i  key={index} class="fa-solid fa-person"></i>
+              <i  key={index} className="fa-solid fa-person"></i>
             
           );
         })} 
